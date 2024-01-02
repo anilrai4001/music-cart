@@ -1,0 +1,25 @@
+.header{
+    width:100vw;
+    background-color: #2E0052;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding:  20px 30px;
+    align-items: center;
+    font-size: 18px;
+}
+.phone{
+    display: flex;
+    align-items: center;
+}
+.loginLogout{
+    color: white;
+    display: flex;
+    align-items: center;
+    gap:10px;
+    /* justify-content: space-between; */
+}
+.link{
+    text-decoration: none;
+    color: white;
+}

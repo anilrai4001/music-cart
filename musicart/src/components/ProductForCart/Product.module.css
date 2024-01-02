@@ -1,0 +1,97 @@
+
+.product {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+.product:first-of-type {
+    border-top: 3px solid #E1E1E1;
+    padding-top: 30px;
+}
+
+.productImage {
+    width: 250px;
+    height:250px;
+    border: 3px solid #2E0052;
+    border-radius: 8px;
+}
+
+.product>div>p:first-child {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.product>div>p {
+    margin: 10px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.column select {
+    width: 100%;
+}
+
+.total {
+    /* background-color: yellow; */
+    padding-left: 40%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 500;
+    border-top: 3px solid #E1E1E1;
+    padding-top: 10px;
+}
+
+.price {
+    width: 25%;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-left: 3px solid #E1E1E1;
+}
+
+.breakup {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.breakup>div:first-of-type {
+    font-weight: 500;
+}
+
+.breakup>div {
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+}
+
+.totalAmount {
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.order {
+    background-color: #FFD600;
+    font-size: 27px;
+    padding: 10px 70px;
+    border-radius: 11px;
+    width: auto;
+    margin-top: 80px;
+    margin-bottom: 200px;
+    right: 0;
+}

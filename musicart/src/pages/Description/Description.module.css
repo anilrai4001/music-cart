@@ -1,0 +1,167 @@
+.description {
+    /* background-color: antiquewhite; */
+    min-height: 100vh;
+}
+
+.container {
+    width: 90%;
+    margin: 10px auto;
+}
+
+.logoAndCart {
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+}
+
+.cartContainer {
+    position: absolute;
+    right: 0;
+}
+
+.cart {
+    height: 40px;
+}
+
+.back {
+    background-color: #2E0052;
+    font-size: 25px;
+    border-radius: 14px;
+    color: white;
+    padding: 10px 20px;
+    margin: 40px 0;
+}
+.link{
+    color:white;
+    text-decoration: none;
+}
+.product {
+    margin-bottom: 40px;
+}
+
+
+.fullName {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.flexContainer {
+    display: flex;
+    gap: 40px;
+}
+
+.productImages {
+    width: 55%;
+    /* background-color: aquamarine; */
+}
+
+.productImages>img {
+    border: 3px solid #2E0052;
+
+}
+
+.upContainer {
+    object-fit: cover;
+}
+
+.upContainer>img {
+    border-radius: 16px;
+}
+
+.downContainer {
+    display: flex;
+    object-fit: contain;
+    gap: 15px;
+}
+
+.downContainer>img {
+    border-radius: 14px;
+}
+
+.productDescription {
+    width: 45%;
+    /* background-color: blue; */
+}
+
+.productTitle {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.productRating {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.productPrice {
+    font-size: 34px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.productColorAndType {
+    font-size: 34px;
+}
+
+.aboutProduct {
+    margin: 10px 0;
+    font-size: 24px;
+}
+
+li {
+    margin-left: 20px;
+}
+
+.available,
+.brand {
+    font-size: 34px;
+    font-weight: 500;
+    margin: 15px 0;
+}
+
+.available>span,
+.brand>span {
+    font-weight: 400;
+}
+
+.addToCart,
+.buyNow,
+.login,
+.signup {
+    font-size: 33px;
+    padding: 10px 0;
+    width: 70%;
+    display: block;
+    border-radius: 40px;
+    margin: 15px 0;
+}
+
+.addToCart {
+    background-color:#FFD600;
+    cursor: pointer;
+}
+
+.buyNow {
+    background-color: #FFB800;
+}
+
+.login{
+    background-color: #2E0052;
+}
+.signup{
+    
+    background-color: white;
+}
+.signup>.link{
+    color: #2E0052;
+    border-color: #2E0052;
+}
+
+.buyNow>.link{
+    color:black;
+}

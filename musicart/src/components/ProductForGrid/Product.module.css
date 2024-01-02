@@ -1,0 +1,28 @@
+.product{
+    /* background-color: red; */
+    flex-basis: calc(22%);
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    cursor: pointer;
+}
+.imageContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #D4E5FF;
+    padding: 20px;
+    object-fit: contain;
+}
+.productImage{
+    height: 250px;
+    width:250px;
+}
+.productDescription{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}

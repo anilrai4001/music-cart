@@ -1,0 +1,136 @@
+.home{
+    width:100vw;
+    min-height: 100vh;
+}
+.container{
+    width:90%;
+    margin:10px auto;
+    /* background-color: aqua; */
+}
+.logoContainer{
+    /* background-color: antiquewhite; */
+    display: flex;
+    align-items: center;
+    margin: 30px 0;
+    gap: 20px;
+}
+
+.banner{
+    background: linear-gradient(90deg, #7286B4 0%, #E794CE 100%);
+    display: flex;
+    padding: 20px 60px;
+    position: relative;
+    overflow: visible;
+    border-radius: 29px;
+}
+.offerText{ 
+    font-size: 60px;
+    font-weight: 500;
+   color: #2E0052;
+}
+.buyNow{
+    background-color: #2E0052;
+    border-radius: 30px;
+    font-size: 24px;
+    color:white;
+    width: fit-content;
+    padding: 10px 50px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.bannerImage{
+    position: absolute;
+    bottom: 0;
+    right: -40px;
+    z-index: 1;
+    height: 320px;
+}
+
+.searchbar{
+    /* background-color: #E794CE; */
+    margin: 20px 0;
+    border-radius: 35px;
+    border: 3px solid #C8C8C8;
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+}
+.searchIcon{
+    height: 30px;
+}
+.input{
+    width:100%;
+    font-size: 25px;
+    margin-left: 20px;
+    outline: none;
+    border: none;
+}
+
+.filters{
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.filters>div{
+    display: flex;
+    align-items: center;
+}
+.gridViewImage{
+    height: 45px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.listViewImage{
+    height: 60px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.select{
+    outline: none;
+    width: fit-content;
+    font-size: 20px;
+    border-radius: 30px;
+    padding: 10px 30px;
+    appearance: none;
+    margin-right:  20px;
+    position: relative;
+    display: inline-block;
+    background-color: #D9D9D9;
+}
+.select:first-of-type{
+    margin-left: 80px;
+}
+option{
+    background-color: white;
+}
+.sort{
+    font-size: 20px;
+    padding: 0 30px;
+    border-radius: 30px;
+    border: 3px solid #E1E1E1;
+}
+.sort>select{
+    font-size: 20px;
+    outline: none;
+    margin-left: 10px;
+    border: none;
+    padding: 10px;
+}
+.products{
+    margin: 20px 0;
+}
+
+.gridView{
+    /* background-color: yellow; */
+    display: flex;
+    /* justify-content: space-around; */
+    flex-wrap: wrap;
+    gap:4%;
+}
+.listView{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
